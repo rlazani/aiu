@@ -40,13 +40,6 @@ p {
   background-color:#fafafa;  
 }
 
-.navbar svg {
-  margin-left: 10%;
-}
-
-.navbar-collapse {
-  margin-right: 10%;
-}
 
 .nav-link {
   font-size: 1.1rem;
@@ -117,8 +110,15 @@ li.dropdown {
   background-image: linear-gradient(rgba(94, 55, 4, 0.803), rgba(94, 55, 4, 0.803)  ),
   url("../Image/enei2.jpg");
   object-fit: cover;
-  height: 550px; 
+  height: 800px; 
   padding-top: 12%;
+}
+
+
+.logo-unicamp {
+  width: 10%;
+  display: block;
+  margin: 0px auto 50px auto;
 }
 
 .imagem p {
