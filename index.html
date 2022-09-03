@@ -50,7 +50,7 @@
 <section id="features">
   <h2 class="text-center">Nossa Comunidade</h2>
     <div class = "row" id = "features-flex">  
-      <div class = "features-box col-lg-5 caixas caixa1">
+      <div class = "features-box col-lg-4 caixas caixa1">
         <a href="Catalogo.html" class = "icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-pin-map" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
@@ -59,7 +59,7 @@
         </a>  
         <p class="pt-3">Pesquisa Acadêmicas</p>
       </div>   
-      <div class = "features-box col-lg-5 caixas caixa2">
+      <div class = "features-box col-lg-4 caixas caixa2">
         <a href="Catalogo.html" class = "icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-pin-map" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
@@ -106,8 +106,8 @@
               </form>
             </div>
           </div>
-          <div class="col-6 col-lg-6">
-            <img src="Image/ingresso.jpg">
+          <div class="col-2 col-lg-4">
+            <img src="Image/ingresso.jpg" id="img-ingresso">
           </div>
         </div>
       </div>
@@ -117,13 +117,23 @@
       <div class="px-4 py-5 my-5 text-center">
         <!-- <img class="d-block mx-auto mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
         <h1 class="display-5 fw-bold">Assine nossa newsletter</h1>
-        <div class="col-lg-6 mx-auto">
+        <div class="col-lg-4 mx-auto">
           <p class="lead mb-4">Fique por dentro de nossas atividades e amplie sua visão sobre o universo indígena</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-dark btn-lg px-4 gap-3"> Contato</button>
-          </div>
+          <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Nome</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">E-mail</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Contatar</button>
+          </form>
         </div>
       </div>
+
+      
         
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -131,7 +141,7 @@
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
         </a>
-        <span class="text-muted">&copy; Info Café</span>
+        <span class="text-muted">&copy; Mantiqueira Sistemas</span>
       </div>
   
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

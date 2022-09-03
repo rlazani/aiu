@@ -168,33 +168,39 @@ svg:hover {
 
 .caixas {
   padding: 200px;
-  margin: 100px 20px 0px 20px;
+  margin: 100px 50px 0px 50px;
 }
 
 .caixa3 {
   background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
-  url("../Image/emprego.jpg");
+  url("../Image/newsletter.jpg");
   object-fit: cover;
   padding: 150px;
   margin: 100px 20px 0px 20px;
+  border-radius: 15px;
 }
 
 .caixa4 {
   background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
-  url("../Image/ingresso.jpg");
+  url("../Image/newsletter.jpeg");
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .caixa2 {
   background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
   url("../Image/origens.jpg");
   object-fit: cover;
+  background-position: bottom center;
+  border-radius: 15px;
 }
 
 .caixa1 {
   background-image: linear-gradient(rgba(25, 26, 25, 0.534), rgba(25, 26, 25, 0.534)),
   url("../Image/pesquisas.jpg");
   object-fit: cover;
+  background-position: bottom left;
+  border-radius: 15px;
 }
 
 /* Terceiro Quadro */
@@ -203,6 +209,9 @@ svg:hover {
   background-color:#fafafa;
 }
 
+#img-ingresso {
+  max-width: 700px;
+}
 
 
 /* Footer */
