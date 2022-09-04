@@ -134,6 +134,13 @@ li.dropdown {
   font-weight: 700;
 }
 
+
+/*Oportunidades*/
+
+#oportunidades {
+  background-color: rgb(253, 194, 116);
+}
+
 /* Segundo Quadro */
 
 #features h2 {
